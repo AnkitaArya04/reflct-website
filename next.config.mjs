@@ -36,9 +36,11 @@ const nextConfig = {
     ],
   },
   experimental: {
-    runtime: "nodejs",
+    runtime: "nodejs", // Ensures Node.js is used instead of Edge runtime
   },
+  output: "standalone", // Helps with Vercel deployments
 };
 
 export default nextConfig;
+
 
