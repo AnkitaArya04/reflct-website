@@ -22,7 +22,9 @@ import { cn } from "@/lib/utils";
 import { MOODS } from "@/app/lib/moods";
 import EntryCard from "@/components/entry-card";
 
-export function JournalFilters({ entries }) {
+// export function JournalFilters({ entries }) {
+  function JournalFilters({ entries }) {
+
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedMood, setSelectedMood] = useState("");
   const [date, setDate] = useState(null);
@@ -146,3 +148,4 @@ export function JournalFilters({ entries }) {
     </>
   );
 }
+export default JournalFilters;

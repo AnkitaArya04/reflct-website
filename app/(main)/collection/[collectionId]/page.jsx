@@ -4,6 +4,7 @@ import { getCollections } from "@/actions/collection";
 import JournalFilters from "./_components/journal-filters";
 import DeleteCollectionDialog from "./_components/delete-collection";
 
+
 export default async function CollectionPage({ params }) {
   // const { collectionId } = await params;
   const { collectionId } = params;

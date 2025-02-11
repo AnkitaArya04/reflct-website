@@ -18,7 +18,7 @@ import { deleteCollection } from "@/actions/collection";
 import useFetch from "@/hooks/use-fetch";
 import { useEffect } from "react";
 
-export default function DeleteCollectionDialog({
+ function DeleteCollectionDialog({
   collection,
   entriesCount = 0,
 }) {
@@ -88,3 +88,4 @@ export default function DeleteCollectionDialog({
     </AlertDialog>
   );
 }
+export default DeleteCollectionDialog;
