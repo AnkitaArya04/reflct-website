@@ -10,7 +10,7 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@arcjet/next": "^1.0.0-alpha.28",
+    "@arcjet/next": "^1.0.0-beta.2",
     "@arcjet/redact": "^1.0.0-alpha.28",
     "@clerk/nextjs": "^6.3.1",
     "@hookform/resolvers": "^3.9.1",
