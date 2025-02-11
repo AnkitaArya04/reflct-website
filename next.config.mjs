@@ -36,11 +36,13 @@ const nextConfig = {
     ],
   },
   experimental: {
-    runtime: "nodejs", // Ensures Node.js is used instead of Edge runtime
+    runtime: "nodejs", // ✅ This is correct for forcing Node.js runtime
   },
-  output: "standalone", // Helps with Vercel deployments
+  output: "standalone", // ✅ Useful for deployments
 };
 
+// Fix: Ensure module.exports is used properly for Next.js
 export default nextConfig;
+
 
 
